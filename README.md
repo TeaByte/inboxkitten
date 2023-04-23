@@ -13,7 +13,7 @@ pip install inboxkitten
 ```
 
 Example
-```
+```python
 import inboxkitten as ik
 
 # Create an inbox with name test@inboxkitten.com
@@ -37,3 +37,5 @@ print(email.where_sender('talent.io'))
 # Save response as html file
 email.save_html(first, 'first.html')
 ```
+
+
