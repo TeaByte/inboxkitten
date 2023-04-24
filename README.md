@@ -36,6 +36,11 @@ print(email.where_sender('talent.io'))
 
 # Save response as html file
 email.save_html(first, 'first.html')
+
+# Error handling
+another_one = ik.InboxKitten('rundomthing123')
+try: another_one.text(index=666)
+except ik.EmailNotFound: print('To email found on that index')
 ```
 
 
