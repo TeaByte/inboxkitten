@@ -1,18 +1,14 @@
-# inboxkitten
+# inboxkitten [![Downloads](https://static.pepy.tech/personalized-badge/inboxkitten?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/inboxkitten)
 Simple inboxkitten python lib for https://inboxkitten.com/
 
-## Features
-- Simple to use
-- Email search
+## 
 
-## Help
-
-Install requirements
+#### Install requirements
 ```
 pip install inboxkitten
 ```
 
-Example
+#### Example
 ```python
 import inboxkitten as ik
 
